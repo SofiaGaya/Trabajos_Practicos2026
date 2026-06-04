@@ -1,8 +1,26 @@
-let numero1 = 25;
-let numero2 = 23;
-let resultado
+let numero1 = 20;
+let numero2 = 10;
+let suma
+let resta
+let multiplicacion
+let divicion
 
-resultado = numero1 + numero2;
+suma = numero1 + numero2;
 
-console.log(resultado);
-alert(resultado)
+console.log("el resultado de sumar " + numero1 + " + " + numero2 + " es " + suma);
+alert("el resultado de sumar " + numero1 + " + " + numero2 + " es " + suma)
+      
+resta = numero1 - numero2;
+
+console.log(" el resultado de restar " + numero1 + " - " + numero2 + " es " + resta);
+alert(" el resultado de restar " + numero1 + " - " + numero2 + " es " + resta)
+
+multiplicacion = numero1 * numero2;
+
+console.log(" el resultado de multiplicar " + numero1 + " * " + numero2 + " es " + multiplicacion);
+alert(" el resultadode multiplicar " + numero1 + " * " + numero2 + " es " + multiplicacion)
+
+divicion = numero1 / numero2;
+
+console.log(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion);
+alert(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion)
