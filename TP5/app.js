@@ -25,8 +25,16 @@ divicion = numero1 / numero2;
 console.log(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion);
 alert(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion)
 
-let nombreAlumno
-let apellidoAlumno
-let edadAlumno
+let apellidoAlumno = " gimenez "
+let edadAlumno = 14
 
-console.log("")
+console.log(" el alumno : " + nombreAlumno + apellidoAlumno + " tiene " + edadAlumno + " años ");
+alert(" el alumno : " + nombreAlumno + apellidoAlumno + " tiene " + edadAlumno + " años ");
+
+let precio1 = 250
+let precio2 = 250
+let precio3 = 50
+let total = precio1 + precio2 + precio3
+
+console.log( " el total a pagar es : " + total)
+alert( " el total a pagar es : " + total)
