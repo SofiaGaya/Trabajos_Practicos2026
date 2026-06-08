@@ -24,3 +24,9 @@ divicion = numero1 / numero2;
 
 console.log(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion);
 alert(" el resultado de dividir " + numero1 + " / " + numero2 + " es " + divicion)
+
+let nombreAlumno
+let apellidoAlumno
+let edadAlumno
+
+console.log("")
