@@ -1,4 +1,4 @@
-let numero1 = 20;
+/*let numero1 = 20;
 let numero2 = 10;
 let suma
 let resta
@@ -56,4 +56,13 @@ pais = " Brasil "
 
 alert( pais )
 console.log( pais )
-
+*/
+// guardar objeto
+let titulo = document.querySelector( "h1")
+let boton = document.querySelector('#b1')
+boton.onclick = function () {
+    titulo.textContent = " Buen dia tercero "
+    titulo.style.color = " yellow "
+    titulo.style.backgroundColor = " purple " 
+    titulo.style.fontFamily = " Arial "
+}
