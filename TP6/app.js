@@ -13,5 +13,8 @@ texto.onclick = function(){
     parrafo.textContent = " hola como estan "
 }
 color.onclick = function(){
-    parrafo.color = "orange"
+    parrafo.style.color = "rgb(202, 121, 0)"
+}
+CambiarTexto.onclick = function(){
+    parrafo.style.fontFamily = "impact"
 }
