@@ -62,6 +62,19 @@ ejecutar5.onclick = function () {
         ejercicio5.textContent = " edad no encontrada"
     }
 }
+
+let dia = "sabado"
+let ejecutar6 = document.querySelector("#boton6")
+let ejercicio6 = document.querySelector("#parrafo6")
+
+if ((dia == "sabado") || (edad == " domingo ")) {
+    ejercicio6 = "es fin de semana"
+} else  ((dia == "lunes") || (dia == "martes") || (dia == "miercoles") || (dia == "jueves") || (dia == "viernes")) {
+    
+}
+    ejercicio6 = "es dia laboral"
+
+
 let ejecutar7 = document.querySelector("#boton7")
 let ejercicio7 = document.querySelector("#parrafo7")
 let contrasenia = "bdbndgn"
