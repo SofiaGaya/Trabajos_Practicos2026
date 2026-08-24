@@ -1,8 +1,10 @@
-let edad = 18
+let edad = 0
 let ejercicio1 = document.querySelector('#parrafo1')
 let ejecutar1 = document.querySelector("#boton1")
+let inputEj1 = document.querySelector('#input1')
 
 ejecutar1.onclick = function () {
+    edad = inputEj1.value
     if (edad >= 18) {
         ejercicio1.textContent = " Podes ingresar "
     } else {
