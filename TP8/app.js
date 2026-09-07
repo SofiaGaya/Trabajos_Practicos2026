@@ -14,8 +14,10 @@ ejecutar1.onclick = function () {
 let NombreUsuario = "Nahuel"
 let ejercicio2 = document.querySelector("#parrafo2")
 let ejecutar2 = document.querySelector("#boton2")
+let inputEj2 = document.querySelector('#input2')
 
 ejecutar2.onclick = function () {
+    NombreUsuario = inputEj2.value
     if (NombreUsuario == "Nahuel") {
         ejercicio2.textContent = "Bienvenido Nahuel"
     } else {
@@ -24,8 +26,10 @@ ejecutar2.onclick = function () {
 }
 let ejercicio3 = document.querySelector("#parrafo3")
 let ejecutar3 = document.querySelector("#boton3")
+let inputEj3 = document.querySelector('#input3')
 
 ejecutar3.onclick = function () {
+    NombreUsuario = inputEj3.value
     if ((NombreUsuario == "Nahuel") || (NombreUsuario == "Marcos")) {
         ejercicio3.textContent = " bienvenido " + NombreUsuario + " ¿Como estas?"
     } else {
@@ -35,8 +39,11 @@ ejecutar3.onclick = function () {
 let numero = 9
 let ejecutar4 = document.querySelector("#boton4")
 let ejercicio4 = document.querySelector("#parrafo4")
+let inputEj4 = document.querySelector('#input4')
+
 
 ejecutar4.onclick = function () {
+    numero = inputEj4.value
     if (numero > 0) {
         ejercicio4.textContent = "El numero es positivo"
     } else if (numero == 0) {
@@ -48,8 +55,10 @@ ejecutar4.onclick = function () {
 let Edad = 7
 let ejecutar5 = document.querySelector("#boton5")
 let ejercicio5 = document.querySelector("#parrafo5")
+let inputEj5 = document.querySelector('#input5')
 
 ejecutar5.onclick = function () {
+    numero = inputEj5.value
     if ((Edad >= 6) && (Edad <= 11)) {
         ejercicio5.textContent = "tu edad corresponde a un niño"
     } else if ((Edad >= 12) && (Edad <= 18)) {
