@@ -1,4 +1,4 @@
-/*
+
 function mayor (numero1, numero2){
     let numeroMa
     if (numero1 > numero2) {
@@ -9,13 +9,27 @@ function mayor (numero1, numero2){
 
     return numeroMa
 }
-*/
-function menor (numero1, numero2){
+
+function menor (numero3, numero4){
     let numeroMe 
-    if (numero1 < numero2) {
-        numeroMe = numero1
+    if (numero3 < numero4) {
+        numeroMe = numero3
     } else {
-        numeroMe = numero2
+        numeroMe = numero4
     }
     return numeroMe
+}
+function iguales (numero5, numero6){
+    let resultado
+    if (numero5 == numero6) {
+        resutado = "son iguales"
+    } else {
+        resultado = "son distintos"
+    }
+    return resultado
+}
+function porcentaje(numero7){
+    let compra
+    compra = numero7 * 0.21
+    return compra
 }
