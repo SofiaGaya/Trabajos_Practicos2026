@@ -33,3 +33,14 @@ function porcentaje(numero7){
     compra = numero7 * 0.21
     return compra
 }
+function modoOscuro(){
+    let body = document.querySelector('body')
+    body.style.backgroundColor = "black"
+    body.style.color ="white"
+}
+
+function modoClaro (){
+    let body = document.querySelector('body')
+    body.style.backgroundColor = "white"
+    body.style.color ="black"
+}
