@@ -1,0 +1,20 @@
+let utiles = ["lapiz", "goma", "regla", "cuaderno", "lapicera"]
+console.log(utiles)
+console.log(utiles[0])
+console.log(utiles[2])
+console.log(utiles[utiles.lenght - 1])
+console.log(utiles.lenght)
+utiles.push("mochila")
+console.log(utiles)
+utiles.unshift("cartuchera")
+console.log(utiles)
+console.log(utiles.lenght)
+console.log(utiles[utiles.lenght - 1])
+utiles.pop()
+console.log(utiles)
+console.log(utiles[0])
+utiles.shift()
+console.log(utiles)
+console.log(utiles.lenght)
+
+
